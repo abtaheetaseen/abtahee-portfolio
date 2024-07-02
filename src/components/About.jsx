@@ -23,7 +23,7 @@ const About = () => {
             </div>
 
             <div className='flex items-center justify-center mt-10'>
-                <a className='btn btn-sm border-none bg-yellow-500 hover:bg-yellow-400 text-white' target='_blank' alt="my resume" rel='noopener noreferrer' href='./ABTAHEE ASHAB SIDDIQUI-RESUME(react developer).pdf'>
+                <a className='btn btn-sm border-none bg-yellow-500 hover:bg-yellow-400 text-white' target='_blank' alt="my resume" rel='noopener noreferrer' href='./ABTAHEE ASHAB SIDDIQUI-RESUME(react-developer).pdf'>
                     Download Resume
                 </a>
             </div>
