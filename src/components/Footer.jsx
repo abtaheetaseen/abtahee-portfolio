@@ -33,7 +33,7 @@ const Footer = () => {
                 </div>
             </div>
 
-    <p>"You can't have great software without a great team, and most software teams behave like dysfunctional families." - Jim McCarthy</p>
+    <p>You cannot have great software without a great team, and most software teams behave like dysfunctional families. - Jim McCarthy</p>
   </div> 
 </footer>
     </div>

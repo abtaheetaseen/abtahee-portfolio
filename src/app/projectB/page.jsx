@@ -30,7 +30,7 @@ const page = () => {
       <div className="mb-10">
         <h1 className="text-xl font-bold mb-3">Run Locally</h1>
         <ul>
-            <li>1. Click the green "Code" button and copy the URL.</li>
+            <li>1. Click the green Code button and copy the URL.</li>
             <li>2. Open a terminal and navigate to the directory where you want to clone the repository.</li>
             <li>3. Run this command: git clone and repo url</li>
             <li>4. To install dependencies, use npm install command.</li>
