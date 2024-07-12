@@ -5,7 +5,7 @@ import Link from 'next/link'
 import React, { useEffect } from 'react'
 import { FaCode, FaEye, FaServer } from 'react-icons/fa'
 
-const page = () => {
+const Page = () => {
 
   useEffect(() => {
     AOS.init()
@@ -72,4 +72,4 @@ const page = () => {
   )
 }
 
-export default page
+export default Page
