@@ -5,7 +5,7 @@ import Link from 'next/link'
 import React, { useEffect } from 'react'
 import { FaFacebook, FaGithub, FaLinkedin } from "react-icons/fa";
 
-const Navbar = () => {
+const Page = () => {
 
     useEffect(() => {
         AOS.init()
@@ -71,4 +71,4 @@ const Navbar = () => {
     )
 }
 
-export default Navbar
+export default Page

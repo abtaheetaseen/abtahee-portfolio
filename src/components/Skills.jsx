@@ -8,7 +8,7 @@ import { VscVscode } from "react-icons/vsc";
 import AOS from "aos"
 import "aos/dist/aos.css"
 
-const Skills = () => {
+const Page = () => {
 
     useEffect(() => {
         AOS.init()
@@ -90,4 +90,4 @@ const Skills = () => {
   )
 }
 
-export default Skills
+export default Page

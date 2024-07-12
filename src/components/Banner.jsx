@@ -4,7 +4,7 @@ import React, { useEffect } from 'react'
 import AOS from "aos"
 import "aos/dist/aos.css"
 
-const Banner = () => {
+const Page = () => {
 
   useEffect(() => {
     AOS.init()
@@ -23,4 +23,4 @@ const Banner = () => {
   )
 }
 
-export default Banner
+export default Page

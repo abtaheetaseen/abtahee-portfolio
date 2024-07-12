@@ -6,7 +6,7 @@ import { SiGmail } from "react-icons/si";
 import AOS from "aos"
 import "aos/dist/aos.css"
 
-const Contact = () => {
+const Page = () => {
 
   useEffect(() => {
     AOS.init()
@@ -123,4 +123,4 @@ const Contact = () => {
   )
 }
 
-export default Contact
+export default Page
