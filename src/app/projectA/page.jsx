@@ -1,10 +1,18 @@
+"use client"
+import AOS from "aos"
+import "aos/dist/aos.css"
 import Link from 'next/link'
-import React from 'react'
+import React, { useEffect } from 'react'
 import { FaCode, FaEye, FaServer } from 'react-icons/fa'
 
 const page = () => {
+
+  useEffect(() => {
+    AOS.init()
+}, [])
+
   return (
-    <div className='my-[50px] w-10/12 mx-auto'>
+    <div data-aos="fade-up" className='my-[50px] w-10/12 mx-auto'>
         <div>
 
         {/* Basic Info */}

@@ -1,15 +1,23 @@
-import React from 'react'
+"use client"
+import React, { useEffect } from 'react'
 import { FaCss3Alt, FaGitAlt, FaGithub, FaHtml5, FaNodeJs, FaReact } from 'react-icons/fa'
 import { RiTailwindCssFill } from "react-icons/ri";
 import { IoLogoJavascript } from "react-icons/io5";
 import { SiMongodb } from "react-icons/si";
 import { VscVscode } from "react-icons/vsc";
+import AOS from "aos"
+import "aos/dist/aos.css"
 
 const Skills = () => {
+
+    useEffect(() => {
+        AOS.init()
+    }, [])
+    
   return (
 
     <>
-    <div className='text-center'>
+    <div data-aos="fade-up" className='text-center'>
         <h1 className='text-4xl font-extrabold tracking-widest'>Skills</h1>
     </div>
 

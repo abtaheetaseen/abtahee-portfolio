@@ -1,10 +1,17 @@
-import React from 'react'
+"use client"
+import React, { useEffect } from 'react'
+import AOS from "aos"
+import "aos/dist/aos.css"
 
 const About = () => {
 
+    useEffect(() => {
+        AOS.init()
+    }, [])
+
   return (
     <>
-    <div className='text-center mt-[70px]'>
+    <div data-aos="fade-up" className='text-center mt-[70px]'>
         <h1 className='text-4xl font-extrabold tracking-widest'>About</h1>
     </div>
 

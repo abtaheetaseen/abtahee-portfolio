@@ -1,8 +1,15 @@
+"use client"
+import AOS from "aos"
+import "aos/dist/aos.css"
 import Link from 'next/link'
-import React from 'react'
+import React, { useEffect } from 'react'
 import { FaFacebook, FaGithub, FaLinkedin } from "react-icons/fa";
 
 const Navbar = () => {
+
+    useEffect(() => {
+        AOS.init()
+    }, [])
 
     return (
 

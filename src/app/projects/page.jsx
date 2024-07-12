@@ -1,14 +1,22 @@
+"use client"
+import AOS from "aos"
+import "aos/dist/aos.css"
 import Link from 'next/link'
-import React from 'react'
+import React, { useEffect } from 'react'
 import { FaCode, FaEye, FaServer } from 'react-icons/fa'
 
 const page = () => {
+
+    useEffect(() => {
+        AOS.init()
+    }, [])
+
     return (
         <>
-            <div className='text-center'>
+            <div data-aos="fade-up" className='text-center'>
         <h1 className='text-4xl font-extrabold tracking-widest my-[50px]'>Projects</h1>
     </div>
-        <div className='flex items-center justify-center mb-[100px]'>
+        <div data-aos="fade-right" className='flex items-center justify-center mb-[100px]'>
             <div className='grid grid-cols-1 gap-10 lg:grid-cols-3 md:grid-cols-2'>
 
                 {/* project 1 */}

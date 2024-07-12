@@ -1,10 +1,16 @@
 "use client"; // Add this directive at the top
 import emailjs from '@emailjs/browser';
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import { FaHome, FaPhoneAlt } from 'react-icons/fa';
 import { SiGmail } from "react-icons/si";
+import AOS from "aos"
+import "aos/dist/aos.css"
 
 const Contact = () => {
+
+  useEffect(() => {
+    AOS.init()
+}, [])
 
   // const [name, setName] = useState("");
   // const [email, setEmail] = useState("");
@@ -44,7 +50,7 @@ const Contact = () => {
 
   return (
     <>
-          <div className='text-center'>
+          <div data-aos="fade-up" className='text-center'>
         <h1 className='text-4xl font-extrabold tracking-widest'>Contact</h1>
     </div>
 
